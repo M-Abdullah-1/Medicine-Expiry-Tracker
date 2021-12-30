@@ -1,0 +1,2 @@
+#This is for tracking the expiry date of medicine. And it will notify the user before 6 months of the expiry date.
+The sql file is in the "database file" folder. To use this project first you will import the sql file in your database manager.

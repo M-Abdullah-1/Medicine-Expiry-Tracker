@@ -1,0 +1,88 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+/* ::-webkit-scrollbar-thumb {
+    background: #FF0000;
+} */
+.bgPic{
+  background-image: url("../img/bg3.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.height {
+  min-height: 100vh;
+}
+.bgOpacity{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.logo-size{
+  height: 1rem;
+}
+.form-control-sm{
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+.page-item .page-link{
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border-radius: 0% !important;
+  border: 0.5px solid rgba(0, 0, 0, 0.0) !important;
+}
+.page-item.active .page-link{
+  color: white !important;
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+.page-item.previous.disabled .page-link{
+  color: rgba(255, 255, 255, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.page-item.next.disabled .page-link{
+  color: rgba(255, 255, 255, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.pointer {
+  cursor: default;
+}
+/* #expiryNo {
+  background-color: rgba(0, 0, 0, 0.7) ;
+  color: white;
+  /* border: 1px solid white;
+  border-radius: 30%;
+  padding: 1px; */
+/* } */
+.list-group-item-action:hover {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.list_margin {
+  margin: 10px;
+}
+.list_color {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* ::placeholder {
+  color: #fff !important;
+} */
+.bg_transparent {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+#searchByDate {
+  border-top-right-radius: 0.0rem ;
+  border-bottom-right-radius: 0.0rem ;
+}
+#searchByDateBtn {
+  border-top-left-radius: 0.0rem ;
+  border-bottom-left-radius: 0.0rem ;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg_transparent_white {
+  background-color: rgba(128, 128, 128, 0.9) !important;
+}
